@@ -7,8 +7,8 @@ const Navbar =() =>{
     const [nav, setNav]=useState(false);
     return(
         <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-            <h1 className="w-full text-3xl font-bold text-[#95edec]">GATIMU.dev</h1>
-            <ul className="hiden md:flex text-[#95edec]">
+            <h1 className="w-full text-3xl font-bold text-[#1cb9f1]">GATIMU.dev</h1>
+            <ul className="hiden md:flex text-[#1cb9f1]">
                 <li className="p-4">Home</li>
                 <li className="p-4">Skills</li>
                 <li className="p-4">About</li>
