@@ -8,7 +8,7 @@ const Hero =()=>{
             <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row items-center justify-between px-4">
             {/* Left side*/}
             <div className="mt-10">
-                <div className="inline-flex items-center gap-2 border border-[#289696] px-5 py-4 rounded-2xl">
+                <div className="bg-[#252b2e] inline-flex items-center gap-2 border border-[#289696] px-5 py-4 rounded-4xl">
                 <span className="w-3 h-3 bg-[#0bb1b1] rounded-full animate-pulse"></span>
                 <p className="text-[#0783b0] font-semibold uppercase tracking-wide">Welcome To Gatimu Tech Services</p>
                 </div>
