@@ -9,8 +9,8 @@ const Navbar =() =>{
         <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
             <h1 className="w-full text-3xl font-bold text-[#1cb9f1]">GATIMU.dev</h1>
             <ul className="hiden md:flex text-[#1cb9f1]">
-                <li className="p-4">Home</li>
-                <li className="p-4">Skills</li>
+                <li className="p-4"><a href="#home">Home</a></li>
+                <li className="p-4"><a href="#skills">Skills</a></li>
                 <li className="p-4">About</li>
                 <li className="p-4">Contact</li>
             </ul>
@@ -21,7 +21,7 @@ const Navbar =() =>{
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-gray-900 bg-[#000300] ease-in-out duration-500"
             : "fixed left-[-100%] top-0 w-[60%] h-full border-r border-gray-900 bg-[#000300] ease-in-out duration-500"}>
               <h1 className="w-full text-3xl font-bold text-[#95edec] p-4">GATIMU.dev</h1>
-              <ul className="uppercase p-4 text-[#95edec]">
+              <ul className="font-serif uppercase p-4 text-[#95edec]">
                 <li className="p-4 border-b border-gray-600">Home</li>
                 <li className="p-4 border-b border-gray-600">Skills</li>
                 <li className="p-4 border-b border-gray-600">About</li>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaLaptopCode,FaCode,FaRobot,FaBolt,FaPython} from 'react-icons/fa';
+import {FaLaptopCode,FaCode,FaRobot,FaBolt,FaChartBar} from 'react-icons/fa';
 
 const Skills=()=>{
     return (
@@ -7,8 +7,8 @@ const Skills=()=>{
             <div className="max-w-[1240px] mx-auto px-4p">
                 {/* heading */}
                 <div className="text-center mb-16">
-                    <p className="text-[#1cb9f1] uppercase tracking-[0.2em] font-semibold">My Expertise</p>
-                    <h2 className="text-4xl md:text-5xl font-bold mt-3">What can I do ?</h2>
+                    <p className="font-serif text-[#1cb9f1] uppercase tracking-[0.2em] font-semibold">My Expertise</p>
+                    <h2 className="font-serif text-4xl md:text-5xl font-bold mt-3">What can I do ?</h2>
                     <p className="text-gray-400 mt-5 max-w-2xl mx-auto">I build and design intelligent systems that help businesses automate processes, improve efficiency and create exceptional digital experience.</p>
                 </div>
                 {/* Cards */}
@@ -36,6 +36,12 @@ const Skills=()=>{
                         <FaBolt className="text-5xl text-[#1cb9f1] mb-6"/>
                         <h3 className="font-serif text-2xl font-bold mb-4">AI Automation</h3>
                         <p className="text-gray-400">Building AI powered workflows, Intelligents agents, business automation and productivity solutions that saves on time and energy.</p>
+                    </div>
+                    {/* Data Analyst */}
+                    <div className="bg-[#131d31] border border-cyan-400/10 rounded-2xl p-8 hover:border-cyan-400 hover:-translate-y-2 duration-300">
+                        <FaChartBar className="text-5xl text-[#1cb9f1] mb-6"/>
+                        <h3 className="font-serif text-2xl font-bold mb-4">Data Scientist </h3>
+                        <p className="text-gray-400">Transforming raw data into informative insights through data analysis, predictive modelling, machine learning and data visualization to support infromed business decisions. </p>
                     </div>
                 </div>
             </div>

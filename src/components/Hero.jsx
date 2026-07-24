@@ -4,7 +4,7 @@ import {AiOutlineArrowDown, AiOutlineArrowRight} from "react-icons/ai"
 
 const Hero =()=>{
     return(
-        <section className="w-full bg-transparent text-white py-24 ">
+        <section className="w-full bg-transparent text-white py-24 " id="home">
             <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row items-center justify-between px-4">
             {/* Left side*/}
             <div className="mt-10">
