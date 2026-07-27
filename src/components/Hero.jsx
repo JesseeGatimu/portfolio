@@ -18,7 +18,7 @@ const Hero =()=>{
                 <br></br>
                 <br></br>
                 <div className="flex gp-4">
-                    <button className="flex items-center text-[0.85rem] no-underline tracking-[0.06em] rounded-7px font-serif bg-[#1cb9f1] text-black px-6 py-3 font font-semibold rounded-md hover:bg-[#00cfea] hover:-translate-y-0.5 ">View my work  <AiOutlineArrowDown size={18}/></button>
+                    <button className="flex items-center text-[0.85rem] no-underline tracking-[0.06em] rounded-7px font-serif bg-[#1cb9f1] text-black px-6 py-3 font font-semibold rounded-md hover:bg-[#00cfea] hover:-translate-y-0.5 "><a href="#projects">View my work  </a><AiOutlineArrowDown size={18}/></button>
                     <button className="flex items-center border border-blue-500 bg-transparent rounded-7px text-[0.85rem] no-underline tracking-[0.06em] font-serif text-[#1cb9f1] px-6 py-3 hover:bg-[#00e5ff12.] hover:-translate-y-0.5 ml-4 rounded-md">Contact me  <AiOutlineArrowRight/></button>
                 </div>
             </div>

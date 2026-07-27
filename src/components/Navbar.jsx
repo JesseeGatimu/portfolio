@@ -11,7 +11,7 @@ const Navbar =() =>{
             <ul className="hiden md:flex text-[#1cb9f1]">
                 <li className="p-4"><a href="#home">Home</a></li>
                 <li className="p-4"><a href="#skills">Skills</a></li>
-                <li className="p-4">About</li>
+                <li className="p-4"><a href="#projects">Projects</a></li>
                 <li className="p-4">Contact</li>
             </ul>
             <div className="md:hidden" onClick={()=>setNav(!nav)}>
