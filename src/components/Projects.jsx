@@ -28,7 +28,7 @@ const Projects=()=>{
                         <div className="flex gap-4 mt-6">
                             <button className="flex items-center gap-2 text-[#00e5ff] hover:text-white duration-300">
                                 <FaGithub/> 
-                                Github
+                                <a href="https://github.com/JesseeGatimu/Meditrack">Github</a>
                             </button>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Projects=()=>{
                         <div className="flex gap-4 mt-6">
                             <button className="flex items-center gap-2 text-[#00e5ff] hover:text-white duration-300">
                                 <FaGithub/>
-                                Github
+                                <a href="https://github.com/JesseeGatimu/supermarket-pos">Github</a>
                             </button>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const Projects=()=>{
                         <div className="flex gap-4 mt-6">
                             <button className="flex items-center gap-2 text-[#00e5ff] hover:text-white duration-300">
                                 <FaGithub/>
-                                Github
+                                <a href="https://github.com/JesseeGatimu/drip_nation">Github</a>
                             </button>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ const Projects=()=>{
                         <div className="flex gap-4 mt-6">
                             <button className="flex items-center gap-2 text-[#00e5ff] hover:text-white duration-300">
                                 <FaGithub/>
-                                Github
+                                <a href="https://github.com/JesseeGatimu/premier-league-predictor">Github</a>
                             </button>
                         </div>
                     </div>
