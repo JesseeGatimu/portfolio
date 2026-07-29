@@ -17,7 +17,7 @@ const Projects=()=>{
                     <div className="bg-[#131d31] border border-cyan-400/10 rounded-2xl p-8 hover:translate-y-2 duration-300">
                         <p className="text-[#00e5ff] text-sm uppercase tracking-wide font-semibold">Hospital Management System</p>
                         <h3 className="font-serif text-2xl mt-3 mb-4 font-bold">Meditack Hospital Management System.</h3>
-                        <p className="text-gray-400 leading-relaxed">A comprehensive hospital management system designed to manage doctors, patients ,
+                        <p className="text-gray-400 leading-relaxed font-serif">A comprehensive hospital management system designed to manage doctors, patients ,
                            appointments, medical records and payments efficiently. 
                         </p>
                         <div className="flex flex-wrap gap-2 mt-6">
@@ -36,7 +36,7 @@ const Projects=()=>{
                     <div className="bg-[#131d31] border border-cyan-400/10 rounded-2xl p-8 hover:translate-y-2 duration-300">
                         <p className="text-[#00e5ff] text-sm uppercase tracking-wide font-semibold">Business Software</p>
                         <h3 className="font-serif text-2xl mt-3 mb-4 font-bold">Supermarket POS</h3>
-                        <p className="text-gray-400 leading-relaxed">
+                        <p className="text-gray-400 leading-relaxed font-serif">
                             A point of sale system design to aid businesses in sales,
                             inventory management and report insights. 
                         </p>
@@ -56,7 +56,7 @@ const Projects=()=>{
                     <div className="bg-[#131d31] border border-cyan-400/10 rounded-2xl p-8 hover:translate-y-2 duration-300">
                         <p className="text-[#00e5ff] text-sm uppercase tracking-wide font-semibold">Drip Nation</p>
                         <h3 className="font-serif text-2xl mt-3 mb-4 font-bold">E-Commerce Application</h3>
-                        <p className="text-gray-400 leading-relaxed">
+                        <p className="text-gray-400 leading-relaxed font-serif">
                             An E-commerce web application designed to help businesses do online store
                             fronting through ensuring a direct to consumer sale approach replacing the 
                             need for the traditional brick and mortar architecture.
@@ -78,7 +78,7 @@ const Projects=()=>{
                     <div className="bg-[#131d31] border border-cyan-400/10 rounded-2xl p-8 hover:translate-y-2 duration-300">
                         <p className="text-[#00e5ff] text-sm uppercase tracking-wide font-semibold">AI Predictor</p>
                         <h3 className="font-serif text-2xl mt-3 mb-4 font-bold">AI Premier Leaugue Predictor</h3>
-                        <p className="text-gray-400 leading-relaxed">An AI premier league results predictor. Predicting both the matches and the results or the matches. 
+                        <p className="text-gray-400 leading-relaxed font-serif">An AI premier league results predictor. Predicting both the matches and the results or the matches. 
                            It uses the past seasons data to make future predictions and even the eventual outcome of the next
                            season and the winner of the league
                         </p>
